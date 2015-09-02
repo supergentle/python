@@ -1,8 +1,7 @@
 import multiprocessing
 
 def worker():
-	print 'worker'
-	return
+	return 'worker'
 
 size = 1e6
 size = int(size)
